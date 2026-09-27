@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>隐私政策 - 照片清理 (MyPhoto)</title>
+    <style>
+        :root {
+            --primary: #007AFF;
+            --bg: #F2F2F7;
+            --card-bg: #FFFFFF;
+            --text-main: #1C1C1E;
+            --text-secondary: #8E8E93;
+            --border: #E5E5EA;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #000000;
+                --card-bg: #1C1C1E;
+                --text-main: #FFFFFF;
+                --text-secondary: #8E8E93;
+                --border: #2C2C2E;
+            }
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text-main);
+            line-height: 1.6;
+            margin: 0;
+            padding: 24px 16px;
+        }
+        .container {
+            max-width: 680px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 36px 28px;
+            border-radius: 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            border: 1px solid var(--border);
+        }
+        h1 {
+            font-size: 26px;
+            font-weight: 700;
+            margin-top: 0;
+            margin-bottom: 8px;
+        }
+        .update-date {
+            font-size: 13px;
+            color: var(--text-secondary);
+            margin-bottom: 24px;
+        }
+        h2 {
+            font-size: 18px;
+            font-weight: 600;
+            margin-top: 24px;
+            margin-bottom: 12px;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 6px;
+        }
+        p, li {
+            font-size: 15px;
+            color: var(--text-main);
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .highlight-box {
+            background-color: rgba(0, 122, 255, 0.08);
+            border-left: 4px solid var(--primary);
+            padding: 14px 16px;
+            border-radius: 8px;
+            margin: 18px 0;
+            font-size: 14px;
+        }
+        .footer {
+            margin-top: 36px;
+            text-align: center;
+            font-size: 13px;
+            color: var(--text-secondary);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>隐私政策</h1>
+        <div class="update-date">更新日期：2026年9月23日 · 生效日期：2026年9月23日</div>
+
+        <div class="highlight-box">
+            <strong>核心承诺：</strong>本应用为 <strong>100% 纯本地离线工具</strong>。我们不收集、不存储、不上传您的任何个人照片、元数据或设备识别信息。您的所有隐私完全归您个人所有。
+        </div>
+
+        <h2>一、 相册权限的使用</h2>
+        <p>当您使用本应用时，我们会请求访问您的 iOS 照片图库权限（<code>NSPhotoLibraryUsageDescription</code>）。该权限仅用于以下目的：</p>
+        <ul>
+            <li><strong>在您的设备本地读取照片与实况照片 (Live Photo)</strong>：以便为您提供流畅的卡片浏览、放大检查与分类功能；</li>
+            <li><strong>执行您确认的删除操作</strong>：当您点击“一键彻底清理”时，系统将调用 Apple 官方 PhotoKit 框架安全接口将照片移入系统废纸篓。此过程必须通过 iOS 系统弹窗经您二次确认，我们绝不会私自删除任何数据。</li>
+        </ul>
+
+        <h2>二、 零数据收集与零网络传输</h2>
+        <p>我们郑重承诺：</p>
+        <ul>
+            <li><strong>无网络通信</strong>：本应用未嵌入任何联网上传或后端服务器通信代码；</li>
+            <li><strong>无第三方追踪</strong>：本应用未集成任何第三方统计、广告 SDK、追踪代码（如友盟、TalkingData、Google Analytics 等）；</li>
+            <li><strong>无数据上传</strong>：您的照片、视频、地理位置、拍摄日期及人脸特征等任何数据均不会离开您的设备。</li>
+        </ul>
+
+        <h2>三、 本地数据存储</h2>
+        <p>为了让您在重新打开应用时能够接着上次的位置继续整理，应用会在您设备的本地安全存储（<code>UserDefaults</code>）中记录当前相册的浏览进度序号。该进度数据仅保存在您的手机内部，应用卸载时将自动清除。</p>
+
+        <h2>四、 隐私政策的更新</h2>
+        <p>若未来功能变更涉及权限调整，我们会在本页面公布更新后的政策。鉴于本应用的设计理念始终坚持“纯净本地离线”，任何更新都不会改变我们对用户隐私的最高保护标准。</p>
+
+        <h2>五、 联系我们</h2>
+        <p>如果您对本隐私政策有任何疑问或建议，欢迎发送邮件至 <strong>bjtuwz@gmail.com</strong> 与我们取得联系。</p>
+
+        <div class="footer">
+            &copy; 2026 照片清理 (MyPhoto). 保留所有权利。
+        </div>
+    </div>
+</body>
+</html>
